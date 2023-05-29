@@ -5,7 +5,13 @@
     --main-color: #ff702a;
     --text-color: #fff;
     --bg-color: #1e1c2a;
+    --footer-color: #9BA4B5;
     --big-font: 5rem;
     --h2-font: 2.25rem;
     --p-font:0.9rem;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
 }
