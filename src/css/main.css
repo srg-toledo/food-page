@@ -13,9 +13,7 @@
     grid-gap: 1.5rem;
     align-items: center;
 }
-/* .painel {
-    display: inline-block;
-} */
+
 .painel p {
     font-size: 28px;
     color: var(--text-color);
@@ -28,7 +26,6 @@
     text-decoration: none;
     background-color: var(--main-color);
     padding: 10px;
-    /* margin: 10px; */
     border-radius: 10px;
     color: var(--text-color);
 }
@@ -55,7 +52,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    min-height: 90vh;
+    min-height: 70vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
@@ -96,6 +93,7 @@
 .menu {
     padding: 70px 17%;
     align-items: center;
+    min-height: 70vh;
 }
 
 .menu div {
@@ -130,17 +128,24 @@
     text-decoration: none;
     display: inline-block;
     background-color: var(--text-color);
-    /* border: solid black; */
+    color: var(--bg-color);
     border-radius: 30px;
-    /* text-align: center; */
+    padding: 50px;
     
+}
+
+.menu .itens-menu ul li a img{
+    width: 200px;
+    margin: 30px 0;
 }
 
 .menu .itens-menu ul> li> strong p{
     color: black;
+    margin: 10px 0 10px;
 }
 
 .menu span > p{
+    margin-top: 10px;
     color: var(--main-color);
 }
 .menu {
@@ -151,6 +156,7 @@
 .servico{
     padding: 70px 17%;
     align-items: center;
+    
 }
 
 .servico div {
@@ -160,7 +166,6 @@
 .servico .texto-pintado{
     color: var(--main-color);
     font-weight: bold;
-    /* color: var(--main-color); */
 }
 .servico div h2 {
     color: var(--text-color);
@@ -202,7 +207,6 @@
 
 
 .quality-food div {
-    /* margin: 0;     */
     text-align: center;
     width: 600px;
     height: 150px;
@@ -238,32 +242,37 @@ footer{
     padding: 70px 17%;
 }
 
-.teste {
+.menu-footer {
     display: flex;
-    /* text-align: center; */
 }
 
-.teste div ul {
+.menu-footer div ul {
     padding: 0 70px;
     list-style-type: none;
     display: inline-block;
     margin: 0;
 }
-.teste p {
+
+.menu-footer div ul p{
+    margin-bottom: 30px;
+}
+
+.menu-footer div ul li{
+    margin-bottom: 30px;
+}
+
+
+.menu-footer p {
     color: var(--text-color);
     font-weight: bold;
     text-decoration: underline var(--main-color);
 }
 
-/* .menu-footer ul{ */
-    /* display: flex;
-    justify-content: space-around;
-    text-align: center; */
-    /* display: inline-block; */
-/* } */
-.teste ul li a{
+.menu-footer ul li a{
     text-decoration: none;
     color: #9BA4B5;
+}
 
-
+.menu-footer ul li a:hover{
+    text-decoration: underline;
 }
