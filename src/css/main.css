@@ -16,16 +16,10 @@
 /* .painel {
     display: inline-block;
 } */
-.painel .home-text h1 {
-    color: var(--main-color);
-    font-size: var(--big-font);
-   
-}
-
 .painel p {
-    font-size: var(--p-font);
+    font-size: 28px;
     color: var(--text-color);
-    width: 250px;
+    width: 330px;
     padding: 20px 0;
     font-weight: bold;
 }
@@ -39,6 +33,13 @@
     color: var(--text-color);
 }
 
+
+/* site completo */
+.painel .home-text h1 {
+    color: var(--main-color);
+    font-size: var(--big-font);
+}
+
 .home-img img{
     max-width: 100%;
     width: 600px;
@@ -48,19 +49,68 @@
 
 /* sobre */
 .sobre {
+    display: flex;
     color: var(--text-color);
+    padding: 70px 17%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
 }
 
+.sobre img {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
+.sobre div {
+    margin-left: 40px;
+
+}
+
+.sobre span>p{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.sobre h2 {
+    font-size: var(--h2-font);
+}
+.sobre .sbr-desc{
+    padding: 5px 0 20px 0;
+}
 .sobre a {
     text-decoration: none;
     color: var(--text-color);
     background-color: var(--main-color);
     padding: 10px;
     border-radius: 10px;
-} */
+}
+
 
 
 /* menu */
+.menu {
+    padding: 70px 17%;
+    align-items: center;
+}
+
+.menu div {
+    text-align: center;
+}
+.menu p {
+    font-weight: bold;
+}
+.menu div>h2 {
+    font-size: var(--h2-font);
+    color: var(--text-color);
+    margin-bottom: 48px;
+
+}
+
 .menu .titulo {
     color: var(--main-color);
     font-weight: 600;
@@ -69,6 +119,8 @@
 .menu ul{
     list-style-type: none;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .menu .itens-menu ul li{
     padding: 10px;
@@ -78,8 +130,9 @@
     text-decoration: none;
     display: inline-block;
     background-color: var(--text-color);
-    border: solid black;
+    /* border: solid black; */
     border-radius: 30px;
+    /* text-align: center; */
     
 }
 
@@ -95,36 +148,122 @@
 }
 
 /* servicos */
+.servico{
+    padding: 70px 17%;
+    align-items: center;
+}
+
+.servico div {
+    text-align: center;
+}
 
 .servico .texto-pintado{
     color: var(--main-color);
     font-weight: bold;
     /* color: var(--main-color); */
 }
+.servico div h2 {
+    color: var(--text-color);
+    font-size: var(--h2-font);
+    margin-bottom: 50px;
+}
+
 .servico  p{
     color: var(--text-color);
     font-weight: 100;
 
 }
-.servico h2 {
-    color: var(--text-color);
+
+.servico .img-servico ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servico .img-servico ul li {
+    padding: 30px;
+}
+
+.servico .img-servico ul li img{
+    width: 80px;
 }
 
 
-/* quality food */
 
-.quality-food h2 {
-    /* display: inline-block; */
+/* quality food */
+.quality-food {
+    display: flex;
+    padding: 70px 17%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.quality-food div {
+    /* margin: 0;     */
+    text-align: center;
+    width: 600px;
+    height: 150px;
     color: var(--bg-color);
     background-color: var(--text-color);
     padding: 30px;
     border-radius: 10px;
 }
 
-.quality-food a {
+.quality-food div h2 {
+    position: relative;
+    top: 35%;
+    transform: translateY(-50%);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-food .text-sec a {
+  
+    position: relative;
+    top: 50%;
     text-decoration: none;
     background-color: var(--main-color);
     color: var(--text-color);
     padding: 10px 15px;
     border-radius: 10px;
+}
+
+
+/* footer */
+footer{
+    padding: 70px 17%;
+}
+
+.teste {
+    display: flex;
+    /* text-align: center; */
+}
+
+.teste div ul {
+    padding: 0 70px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+}
+.teste p {
+    color: var(--text-color);
+    font-weight: bold;
+    text-decoration: underline var(--main-color);
+}
+
+/* .menu-footer ul{ */
+    /* display: flex;
+    justify-content: space-around;
+    text-align: center; */
+    /* display: inline-block; */
+/* } */
+.teste ul li a{
+    text-decoration: none;
+    color: #9BA4B5;
+
+
 }

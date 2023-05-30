@@ -12,13 +12,13 @@
     display: inline-block;
 }
 
-.cabecalho .menu ul {
+.cabecalho .menu-cabeca ul {
     display: flex;
     list-style-type: none;
     
 }
 
-.cabecalho .menu{
+.cabecalho .menu-cabeca{
     position: absolute;
     display: inline-block;
     right: 0;
@@ -26,14 +26,14 @@
     cursor: pointer;
 }
 
-.cabecalho .menu ul li a{
+.cabecalho .menu-cabeca ul li a{
     text-decoration: none;
     color: var(--text-color);
     padding: 15px;
 
 }
 
-.cabecalho .menu ul li a:hover{
+.cabecalho .menu-cabeca ul li a:hover{
     font-weight: bold;
 
 }
