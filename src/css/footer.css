@@ -1,1 +1,46 @@
 @charset "UTF-8";
+
+/* footer */
+footer{
+    padding: 70px 17%;
+}
+
+.menu-footer {
+    display: flex;
+}
+
+.menu-footer div ul {
+    padding: 0 47px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+}
+
+.menu-footer div ul p{
+    margin-bottom: 30px;
+}
+
+.menu-footer div ul li{
+    margin-bottom: 30px;
+}
+
+
+.menu-footer p {
+    color: var(--text-color);
+    font-weight: bold;
+    text-decoration: underline var(--main-color);
+}
+
+.menu-footer ul li a{
+    text-decoration: none;
+    color: #9BA4B5;
+}
+
+.menu-footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.fa-brands {
+    font-size: 20px;
+    padding: 2px;
+}
